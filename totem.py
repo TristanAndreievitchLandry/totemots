@@ -18,7 +18,7 @@ def a():
     lcd.message = "On m\'appelle\nbouleau"
     time.sleep(2)
     lcd.clear()
-    lcd.message ="a cause de\nl/'ecorce"
+    lcd.message ="a cause de\nl\'ecorce"
     time.sleep(2)
     lcd.clear()
     lcd.message = "de mon coeur"
@@ -66,7 +66,7 @@ def a():
     lcd.message = "une liqueur\nd\'histoire"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Jean Sioui"
+    lcd.message = "-Jean Sioui"
     time.sleep(5)
     lcd.clear()
 
@@ -107,7 +107,7 @@ def c():
     lcd.message ="sans javel"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Natasha Kanape\nFontaine"
+    lcd.message = "-Natasha Kanape\nFontaine"
     time.sleep(5)
     lcd.clear()
 
@@ -142,7 +142,7 @@ def d():
     lcd.message = "et les autres"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Natasha Kanape\nFontaine"
+    lcd.message = "-Natasha Kanape\nFontaine"
     time.sleep(5)
     lcd.clear()
 
@@ -202,6 +202,7 @@ def e():
     time.sleep(2)
     lcd.clear()
     lcd.message = "residences"
+    time.sleep(2)
     lcd.clear()
     lcd.message = "les papiers lois"
     time.sleep(2)
@@ -209,7 +210,7 @@ def e():
     lcd.message = "Nous incarnerons\nun feu immense."
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Natasha Kanape\nFontaine"
+    lcd.message = "-Natasha Kanape\nFontaine"
     time.sleep(5)
     lcd.clear()
 
@@ -232,7 +233,10 @@ def f():
     lcd.message = "J\'ai une terre\na mourir"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "avec les prairies\nmagnetiques"
+    lcd.message = "avec les\nprairies"
+    time.sleep(2)
+    lcd.clear()
+    lcd.message = "magnetiques"
     time.sleep(2)
     lcd.clear()
     lcd.message = "les hauts bles\ncarabines"
@@ -250,7 +254,7 @@ def f():
     lcd.message = "ou ma colere\nse pend."
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Natasha Kanape\nFontaine"
+    lcd.message = "-Natasha Kanape\nFontaine"
     time.sleep(5)
     lcd.clear()
 
@@ -276,7 +280,7 @@ def g():
     lcd.message = "oseront-elles\nrevenir?"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Natasha Kanape\nFontaine"
+    lcd.message = "-Natasha Kanape\nFontaine"
     time.sleep(5)
     lcd.clear()
 
@@ -326,7 +330,7 @@ def h():
     lcd.message = "parce que j'ai\nfamine de vivre."
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Natasha Kanape\nFontaine"
+    lcd.message = "-Natasha Kanape\nFontaine"
     time.sleep(5)
     lcd.clear()
 
@@ -346,7 +350,7 @@ def i():
     lcd.message = "et les esprits."
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Natasha Kanape\nFontaine"
+    lcd.message = "-Natasha Kanape\nFontaine"
     time.sleep(5)
     lcd.clear()
 
@@ -363,7 +367,7 @@ def j():
     lcd.message = "La mousse soigne\nmes larmes"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -383,7 +387,7 @@ def k():
     lcd.message = "a m\'attendre\nsur ton lichen"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -397,7 +401,7 @@ def l():
     lcd.message = "Face a l\'infini"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -420,7 +424,7 @@ def m():
     lcd.message = "Dessine\nmon infini"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -437,7 +441,7 @@ def n():
     lcd.message = "Le tambour\nrythme ma vie"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -463,7 +467,7 @@ def o():
     lcd.message = "pour\nla pondaison"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -489,7 +493,7 @@ def p():
     lcd.message = "aux couleurs\nrouges, jaunes"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -506,7 +510,7 @@ def q():
     lcd.message = "de la Toundra"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -526,7 +530,7 @@ def r():
     lcd.message = "Toundra,\ntu me gates"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -546,7 +550,7 @@ def s():
     lcd.message = "Je suis seule\navec ma priere"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -566,7 +570,7 @@ def t():
     lcd.message = "son dernier mot"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -586,7 +590,7 @@ def u():
     lcd.message = "qui pardonnent"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -600,7 +604,7 @@ def v():
     lcd.message = "Ou coule\nmon histoire"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -638,7 +642,7 @@ def w():
     lcd.message = "Je te parle\nde la terre"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -658,7 +662,7 @@ def x():
     lcd.message = "d\'une main\nde pierre"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Louis-Karl\nPicard-Sioui"
+    lcd.message = "-Louis-Karl\nPicard-Sioui"
     time.sleep(5)
     lcd.clear()
 
@@ -681,7 +685,7 @@ def y():
     lcd.message = "d\'hier\na peut-etre"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Louis-Karl\nPicard-Sioui"
+    lcd.message = "-Louis-Karl\nPicard-Sioui"
     time.sleep(5)
     lcd.clear()
 
@@ -707,7 +711,7 @@ def z():
     lcd.message = "et le lac\nseul temoin"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Louis-Karl\nPicard-Sioui"
+    lcd.message = "-Louis-Karl\nPicard-Sioui"
     time.sleep(5)
     lcd.clear()
 
@@ -727,7 +731,7 @@ def aa():
     lcd.message = "crepite un\ntresor nouveau"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "\na cueillir\na palir"
+    lcd.message = "a cueillir\na palir"
     time.sleep(2)
     lcd.clear()
     lcd.message = "ces racines m\'ancrent\na cette terre"
@@ -751,7 +755,7 @@ def aa():
     lcd.message = "tu y es\ndeja"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Louis-Karl\nPicard-Sioui"
+    lcd.message = "-Louis-Karl\nPicard-Sioui"
     time.sleep(5)
     lcd.clear()
 
@@ -771,7 +775,7 @@ def bb():
     lcd.message = "dans la meme\nphrase."
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Marie-Andree\nGill"
+    lcd.message = "-Marie-Andree\nGill"
     time.sleep(5)
     lcd.clear()
 
@@ -785,7 +789,7 @@ def cc():
     lcd.message = "full de super"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Marie-Andree\nGill"
+    lcd.message = "-Marie-Andree\nGill"
     time.sleep(5)
     lcd.clear()
 
@@ -799,7 +803,7 @@ def dd():
     lcd.message ="sur les\nmontagnes"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Marie-Andree\nGill"
+    lcd.message = "-Marie-Andree\nGill"
     time.sleep(5)
     lcd.clear()
 
@@ -810,7 +814,7 @@ def ee():
     lcd.message = "a lire\nta riviere"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Marie-Andree\nGill"
+    lcd.message = "-Marie-Andree\nGill"
     time.sleep(5)
     lcd.clear()
 
@@ -827,7 +831,7 @@ def ff():
     lcd.message = "de l\'ephemere" 
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Marie-Andree\nGill"
+    lcd.message = "-Marie-Andree\nGill"
     time.sleep(5)
     lcd.clear()
 
@@ -844,7 +848,7 @@ def gg():
     lcd.message = "millenaire qui\nnous enveloppe"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Marie-Andree\nGill"
+    lcd.message = "-Marie-Andree\nGill"
     time.sleep(5)
     lcd.clear()
 
@@ -855,7 +859,7 @@ def hh():
     lcd.message = "que j\'ai trouve\nau dedans"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Marie-Andree\nGill"
+    lcd.message = "-Marie-Andree\nGill"
     time.sleep(5)
     lcd.clear()
 
@@ -875,7 +879,7 @@ def ii():
     lcd.message = "des faux-trembles"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Marie-Andree\nGill"
+    lcd.message = "-Marie-Andree\nGill"
     time.sleep(5)
     lcd.clear()
 
@@ -886,10 +890,13 @@ def jj():
     lcd.message = "d\'un lever\nde soleil"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "la musique de nos\nanimaux rescapes"
+    lcd.message = "la musique de \nnos\nanimaux"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Marie-Andree\nGill"
+    lcd.message ="rescapes"
+    time.sleep(2)
+    lcd.clear()
+    lcd.message = "-Marie-Andree\nGill"
     time.sleep(2)
     lcd.clear()
     time.sleep(5)
@@ -902,7 +909,7 @@ def kk():
     lcd.message = "en offrande\nsur une pierre"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -913,7 +920,7 @@ def ll():
     lcd.message = "la verte\nToundra"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -924,7 +931,7 @@ def mm():
     lcd.message = "la mousse soigne\nmes larmes"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -935,7 +942,7 @@ def nn():
     lcd.message = "qui te respecte"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -946,7 +953,7 @@ def oo():
     lcd.message = "a la terre\nqui espere" 
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -957,7 +964,7 @@ def pp():
     lcd.message = "qui preserve\nle feu"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -968,7 +975,7 @@ def qq():
     lcd.message = "Papakassik\nl\'entend"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -979,7 +986,7 @@ def rr():
     lcd.message = "de Missinak"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -996,7 +1003,7 @@ def ss():
     lcd.message = "en de petites\nbaies"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -1013,7 +1020,7 @@ def tt():
     lcd.message = "pour la\npondaison"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -1024,7 +1031,7 @@ def uu():
     lcd.message = "Resonne\nmon coeur"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -1038,7 +1045,7 @@ def vv():
     lcd.message = "Une truite grise\nme devisage"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -1046,7 +1053,7 @@ def ww():
     lcd.message = "J\'ai pagaye pour\nte rencontrer"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -1063,7 +1070,7 @@ def xx():
     lcd.message = "accompagne\nsa retraite"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Josephine\nBacon"
+    lcd.message = "-Josephine\nBacon"
     time.sleep(5)
     lcd.clear()
 
@@ -1075,12 +1082,12 @@ def yy():
     time.sleep(2)
     lcd.clear()
     lcd.message = "herisse de"
-    times.sleep(2)
+    time.sleep(2)
     lcd.clear()
     lcd.message = "vielles\ncultures"
     time.sleep(2)
     lcd.clear()
-    ldc.message = "souffle sur\nles aigrettes"
+    lcd.message = "souffle sur\nles aigrettes"
     time.sleep(2)
     lcd.clear()
     lcd.message = "de la fleur\nla plus modeste"
@@ -1098,7 +1105,7 @@ def yy():
     lcd.message ="se couvre de\nlumiere fleurie"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Christine Sioui\nWawanoloath"
+    lcd.message = "-Christine Sioui\nWawanoloath"
     time.sleep(5)
     lcd.clear()
 
@@ -1133,7 +1140,7 @@ def zz():
     lcd.message = "en tableaux \nliquides"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Christine Sioui\nWawanoloath"
+    lcd.message = "-Christine Sioui\nWawanoloath"
     time.sleep(5)
     lcd.clear()
 
@@ -1153,10 +1160,10 @@ def aaa():
     lcd.message = "Elle renait\nencore deesse"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "Maïze"
+    lcd.message = "Maize"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Christine Sioui\nWawanoloath"
+    lcd.message = "-Christine Sioui\nWawanoloath"
     time.sleep(5)
     lcd.clear()
 
@@ -1182,7 +1189,7 @@ def bbb():
     lcd.message = "et invisibles\nde l\'univers"
     time.sleep(2)
     lcd.clear()
-    lcd.message = "--Christine Sioui\nWawanoloath"
+    lcd.message = "-Christine Sioui\nWawanoloath"
     time.sleep(5)
     lcd.clear()
 
