@@ -1195,7 +1195,7 @@ def bbb():
 
 poemes = [a,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,aa,bb,cc,dd,ee,ff,gg,hh,ii,jj,kk,ll,mm,nn,oo,pp,qq,rr,ss,tt,uu,vv,ww,xx, yy, zz, aaa, bbb]
 
-poemes2=copy.copy(poemes)
+poemesCopie=copy.copy(poemes)
 
 def rouge():
     lcd.color = [100, 0, 0]
@@ -1214,7 +1214,7 @@ while poemes:
         poeme=random.choice(list(poemes))
         poeme()
         if len(poemes)==1:
-            poemes.extend(poemes2)
+            poemes.extend(poemesCopie)
         else:
             poemes.remove(poeme)
         
